@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Image.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\OrthonormalBasis.cpp" />
+    <ClCompile Include="src\Ray.cpp" />
+    <ClCompile Include="src\RayTracer.cpp" />
+    <ClCompile Include="src\Utils.cpp" />
+    <ClCompile Include="src\Vector3D.cpp" />
+    <ClCompile Include="src\color\Color.cpp" />
+    <ClCompile Include="src\color\Gradient.cpp" />
+    <ClCompile Include="src\hittable\AABB.cpp" />
+    <ClCompile Include="src\hittable\Box.cpp" />
+    <ClCompile Include="src\hittable\BVHNode.cpp" />
+    <ClCompile Include="src\hittable\ConstantDensityMedium.cpp" />
+    <ClCompile Include="src\hittable\HitResult.cpp" />
+    <ClCompile Include="src\hittable\Hittable.cpp" />
+    <ClCompile Include="src\hittable\HittableList.cpp" />
+    <ClCompile Include="src\hittable\MaterialHittable.cpp" />
+    <ClCompile Include="src\hittable\Movable.cpp" />
+    <ClCompile Include="src\hittable\Rectangle.cpp" />
+    <ClCompile Include="src\hittable\ScatterResult.cpp" />
+    <ClCompile Include="src\hittable\Sphere.cpp" />
+    <ClCompile Include="src\hittable\StaticHittable.cpp" />
+    <ClCompile Include="src\material\Dielectric.cpp" />
+    <ClCompile Include="src\material\Diffuse.cpp" />
+    <ClCompile Include="src\material\DiffuseLight.cpp" />
+    <ClCompile Include="src\material\Isotropic.cpp" />
+    <ClCompile Include="src\material\Material.cpp" />
+    <ClCompile Include="src\material\Metal.cpp" />
+    <ClCompile Include="src\material\TexturalMaterial.cpp" />
+    <ClCompile Include="src\pdf\CosinePDF.cpp" />
+    <ClCompile Include="src\pdf\HittablePDF.cpp" />
+    <ClCompile Include="src\pdf\MixturePDF.cpp" />
+    <ClCompile Include="src\pdf\PDF.cpp" />
+    <ClCompile Include="src\scene\scenes\CornellBox.cpp" />
+    <ClCompile Include="src\scene\scenes\ExampleScene.cpp" />
+    <ClCompile Include="src\scene\Scene.cpp" />
+    <ClCompile Include="src\scene\TrackingScene.cpp" />
+    <ClCompile Include="src\texture\ImageTexture.cpp" />
+    <ClCompile Include="src\texture\PerlinNoise.cpp" />
+    <ClCompile Include="src\texture\PerlinNoiseTexture.cpp" />
+    <ClCompile Include="src\texture\SolidColorTexture.cpp" />
+    <ClCompile Include="src\texture\Texture.cpp" />
+    <ClCompile Include="src\transformation\FaceFlip.cpp" />
+    <ClCompile Include="src\transformation\Rotation.cpp" />
+    <ClCompile Include="src\transformation\SpatialTranslation.cpp" />
+    <ClCompile Include="src\transformation\Transformation.cpp" />
+    <ClCompile Include="src\window\DrawingWindow.cpp" />
+    <ClCompile Include="src\window\SceneWindow.cpp" />
+    <ClCompile Include="src\window\Window.cpp" />
+    <ClCompile Include="src\scene\scenes\TriangleMeshScene.cpp" />
+    <ClCompile Include="src\hittable\mesh\PolygonMesh.cpp" />
+    <ClCompile Include="src\hittable\mesh\TriangleMesh.cpp" />
+    <ClCompile Include="src\hittable\mesh\PolygonFace.cpp" />
+    <ClCompile Include="src\hittable\mesh\Vertex.cpp" />
+    <ClCompile Include="src\hittable\mesh\Triangle.cpp" />
+    <ClCompile Include="src\hittable\mesh\ObjFileLoader.cpp" />
+    <ClCompile Include="src\python\ImageModel.cpp" />
+    <ClCompile Include="src\python\PythonScript.cpp" />
+    <ClCompile Include="src\python\models\maxim\MaximImageModel.cpp" />
+    <ClCompile Include="src\python\models\maxim\MaximImageDenoisingModel.cpp" />
+    <ClCompile Include="src\python\models\maxim\MaximImageEnhancingModel.cpp" />
+    <ClCompile Include="src\python\models\esrgan\EsrganImageModel.cpp" />
+    <ClCompile Include="src\python\models\esrgan\EsrganImageEnhancingModel.cpp" />
+    <ClCompile Include="src\python\ImageModelInferenceScript.cpp" />
+    <ClCompile Include="src\python\models\deepdream\DeepDreamImageModel.cpp" />
+    <ClCompile Include="src\python\models\styletransfer\StyleTransferImageModel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Image.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OrthonormalBasis.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ray.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RayTracer.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector3D.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\color\Color.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\color\Gradient.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\SDL2\SDL.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\stb\stb_image.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\stb\stb_image_write.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\AABB.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\Box.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\BVHNode.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\ConstantDensityMedium.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\DefaultingMaterialHittable.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\HitResult.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\Hittable.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\HittableList.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\MaterialHittable.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\Movable.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\Rectangle.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\ScatterResult.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\Sphere.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\StaticHittable.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\DefaultingTexturalMaterial.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\Dielectric.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\Diffuse.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\DiffuseLight.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\Isotropic.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\Material.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\Metal.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\TexturalMaterial.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pdf\CosinePDF.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pdf\HittablePDF.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pdf\MixturePDF.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pdf\PDF.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\scenes\CornellBox.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\scenes\ExampleScene.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\Scene.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\TrackingScene.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture\ImageTexture.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture\PerlinNoise.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture\PerlinNoiseTexture.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture\SolidColorTexture.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture\Texture.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transformation\FaceFlip.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transformation\Rotation.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transformation\SpatialTranslation.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transformation\Transformation.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\DrawingWindow.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\SceneWindow.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\Window.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\scenes\TriangleMeshScene.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\mesh\PolygonMesh.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\mesh\TriangleMesh.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\mesh\PolygonFace.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\mesh\Vertex.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\mesh\Triangle.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hittable\mesh\ObjFileLoader.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\ImageModel.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\PythonScript.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\models\maxim\MaximImageModel.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\models\maxim\MaximImageDenoisingModel.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\models\maxim\MaximImageEnhancingModel.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\models\esrgan\EsrganImageModel.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\models\esrgan\EsrganImageEnhancingModel.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\ImageModelInferenceScript.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\models\deepdream\DeepDreamImageModel.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="src\python\models\styletransfer\StyleTransferImageModel.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

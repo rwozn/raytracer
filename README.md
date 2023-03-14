@@ -9,3 +9,5 @@ Features:
     - denoise (Maxim)
     - style transfer
     - increase resolution (ESRGAN)
+
+The python environment (`python` directory) and neural networks models (`models` directory) aren't required and can be removed.

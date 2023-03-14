@@ -10,4 +10,4 @@ Features:
     - style transfer
     - increase resolution (ESRGAN)
 
-The python environment (`python` directory) and neural networks models (`models` directory) aren't required and can be removed.
+The python environment (`python` directory) and neural network models (`models` directory) aren't required and can be removed.

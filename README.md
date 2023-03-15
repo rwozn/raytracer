@@ -14,4 +14,4 @@ The python environment (`python` directory) and neural network models (`models` 
 
 ![Demo](demo.gif)
 
-![Sample result)["./saves/cow_1000x580_600spp_50maxdepth_40fov_7workers_46min 35s/raw_result.png"]
+![3D model](saves/cow_1000x580_600spp_50maxdepth_40fov_7workers_46min 35s/raw_result.png)

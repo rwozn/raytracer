@@ -12,4 +12,6 @@ Features:
 
 The python environment (`python` directory) and neural network models (`models` directory) aren't required and can be removed.
 
+![Demo](demo.gif)
+
 ![3D model](saves/cow_1000x580_600spp_50maxdepth_40fov_7workers_46min%2035s/raw_result.png)

@@ -1,5 +1,5 @@
 # raytracer
-Raytracer with visualization using SDL, following the tutorial: https://raytracing.github.io/.
+Raytracer with visualization using SDL, following [the tutorial](https://raytracing.github.io).
 
 Features:
   - raytracing of simple objects (sphere, rectangle, triangle) and custom 3D models (in .obj format)
